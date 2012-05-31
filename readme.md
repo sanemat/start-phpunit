@@ -64,4 +64,17 @@ Search for a package []:
 
 Do you confirm generation [yes]?
 Would you like the vendor directory added to your .gitignore [yes]?
-s
+
+$ /Users/sane/lib/php54/bin/php composer.phar install
+Installing dependencies
+  - Installing symfony/finder (dev-master)
+    Cloning 9ee9a907afeef52956187e862714a7702ca26590
+
+  - Installing eher/phpunit (1.6)
+    Downloading: 100%         
+
+Writing lock file
+Generating autoload files
+
+$ ln -s phpunit vendor/EHER/PHPUnit/bin/phpunit
+$ echo "phpunit" >> .gitignore
