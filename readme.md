@@ -1,3 +1,6 @@
+# How to start project with phpunit
+
+```
 $ mkdir -p start-phpunit
 $ cd start-phpunit
 $ curl -s http://getcomposer.org/installer | ~/lib/php54/bin/php
@@ -80,3 +83,4 @@ $ ln -s phpunit vendor/EHER/PHPUnit/bin/phpunit
 $ echo "phpunit" >> .gitignore
 
 $ hub create -d 'How to start project with phpunit!'
+```
