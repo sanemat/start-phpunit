@@ -78,3 +78,5 @@ Generating autoload files
 
 $ ln -s phpunit vendor/EHER/PHPUnit/bin/phpunit
 $ echo "phpunit" >> .gitignore
+
+$ hub create -d 'How to start project with phpunit!'
