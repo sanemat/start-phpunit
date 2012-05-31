@@ -1,0 +1,13 @@
+{
+    "name": "sanemat/start-phpunit",
+    "description": "How to start project with phpunit.",
+    "require": {
+        "eher/phpunit": "1.6"
+    },
+    "authors": [
+        {
+            "name": "sanemat",
+            "email": "o.gata.ken@gmail.com"
+        }
+    ]
+}
