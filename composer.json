@@ -1,8 +1,21 @@
 {
     "name": "sanemat/start-phpunit",
     "description": "How to start project with phpunit.",
+    "repositories": [
+    {
+      "type": "pear",
+      "url": "http://pear.symfony-project.com"
+    },
+    {
+      "type": "pear",
+      "url": "http://pear.phpunit.de"
+    }
+    ],
     "require": {
-        "eher/phpunit": "1.6"
+        "pear-phpunit/PHPUnit": "*"
+    },
+    "config": {
+      "bin-dir" : "bin/"
     },
     "authors": [
         {
